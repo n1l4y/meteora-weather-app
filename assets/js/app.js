@@ -103,9 +103,9 @@ const errorContent = document.querySelector("[data-error-content]");
  * @param {number} lon Longitude
  */
 export const updateWeather = function (lat, lon) {
-  //   loading.style.display = "grid";
+  // loading.style.display = "grid";
   container.style.overflowY = "hidden";
-  //   container.classList.remove("fade-in");
+  // container.classList.remove("fade-in");
   errorContent.style.display = "none";
 
   const currentWeatherSection = document.querySelector(
@@ -415,6 +415,10 @@ export const updateWeather = function (lat, lon) {
 
         hourlySection.querySelector("[data-wind]").appendChild(windLi);
       }
+
+      /*
+        5 Day forecast section
+      */
     });
   });
 };
