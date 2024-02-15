@@ -1,5 +1,6 @@
 /**
  * @fileoverview All api related stuff like api_key, api request etc.
+ * @copyright n1l4y 2024 All rights reserved
  * @author n1l4y <nilayshah630@gmail.com>
  */
 "use strict";
